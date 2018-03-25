@@ -18,8 +18,8 @@ tags:
 - Microsoft
 - Database
 - Data
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-25"
+modified: "2018-03-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/apis.yaml
 specificationVersion: "0.14"
 apis:
