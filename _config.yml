@@ -1,9 +1,10 @@
-title: Streamdata Gallery Azure Data Lake Store
+title: Streamdata API Gallery - 
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
 url: azure-data-lake-store.streamdata.gallery
-tag: Azure Data Lake Store
+tag: 
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery
+github_user: streamdata-gallery-entities
 github_repo: azure-data-lake-store
 github_branch: master
 collections:
