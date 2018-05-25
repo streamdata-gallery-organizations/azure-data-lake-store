@@ -3,8 +3,9 @@ swagger: "2.0"
 x-collection-name: Azure Data Lake Store
 x-complete: 0
 info:
-  title: Azure Data Lake Store API File System Check Access
-  description: Checks if the specified access is available at the given path.
+  title: Azure Data Lake Store API Account List
+  description: Lists the Data Lake Store accounts within the subscription. The response
+    includes a link to the next page of results, if any.
   version: 1.0.0
 basePath: /
 schemes:
@@ -467,104 +468,6 @@ paths:
           description: OK
       tags:
       - Account
-  /WebHdfsExt/{filePath}:
-    post:
-      summary: File System Concurrent Append
-      description: 'Appends to the specified file, optionally first creating the file
-        if it does not yet exist. This method supports multiple concurrent appends
-        to the file. NOTE: The target must not contain data added by Create or normal
-        (serial) Append. ConcurrentAppend and Append cannot be used interchangeably;
-        once a target file has been modified using either of these append options,
-        the other append option cannot be used on the target file. ConcurrentAppend
-        does not guarantee order and can result in duplicated data landing in the
-        target file.'
-      operationId: FileSystem_ConcurrentAppend
-      x-api-path-slug: webhdfsextfilepath-post
-      parameters:
-      - in: query
-        name: appendMode
-        description: Indicates the concurrent append call should create the file if
-          it doesnt exist or just open the existing file for append
-      - in: path
-        name: filePath
-        description: The Data Lake Store path (starting with /) of the file to which
-          to append using concurrent append
-      - in: query
-        name: No Name
-      - in: query
-        name: op
-        description: The constant value for the operation
-      - in: body
-        name: streamContents
-        description: The file contents to include when appending to the file
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: syncFlag
-        description: Optionally indicates what to do after completion of the concurrent
-          append
-      - in: header
-        name: Transfer-Encoding
-        description: Indicates the data being sent to the server is being streamed
-          in chunks
-      responses:
-        200:
-          description: OK
-      tags:
-      - File System
-    put:
-      summary: File System Set File Expiry
-      description: Sets or removes the expiration time on the specified file. This
-        operation can only be executed against files. Folders are not supported.
-      operationId: FileSystem_SetFileExpiry
-      x-api-path-slug: webhdfsextfilepath-put
-      parameters:
-      - in: query
-        name: expireTime
-        description: The time that the file will expire, corresponding to the ExpiryOption
-          that was set
-      - in: query
-        name: expiryOption
-        description: 'Indicates the type of expiration to use for the file: 1'
-      - in: path
-        name: filePath
-        description: The Data Lake Store path (starting with /) of the file on which
-          to set or remove the expiration time
-      - in: query
-        name: No Name
-      - in: query
-        name: op
-        description: The constant value for the operation
-      responses:
-        200:
-          description: OK
-      tags:
-      - File System
-  /webhdfs/v1/{path}:
-    get:
-      summary: File System Check Access
-      description: Checks if the specified access is available at the given path.
-      operationId: FileSystem_CheckAccess
-      x-api-path-slug: webhdfsv1path-get
-      parameters:
-      - in: query
-        name: fsaction
-        description: File system operation read/write/execute in string form, matching
-          regex pattern [rwx-]{3}
-      - in: query
-        name: No Name
-      - in: query
-        name: op
-        description: The constant value for the operation
-      - in: path
-        name: path
-        description: The Data Lake Store path (starting with /) of the file or directory
-          for which to check access
-      responses:
-        200:
-          description: OK
-      tags:
-      - File System
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

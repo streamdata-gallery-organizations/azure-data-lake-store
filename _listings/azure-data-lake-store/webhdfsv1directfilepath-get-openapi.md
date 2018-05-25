@@ -21,7 +21,7 @@ paths:
         the firewall rule with the specified name will be replaced with this new firewall
         rule.
       operationId: FirewallRules_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put
       parameters:
       - in: path
         name: accountName
@@ -50,7 +50,7 @@ paths:
       summary: Firewall Rules Update
       description: Updates the specified firewall rule.
       operationId: FirewallRules_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch
       parameters:
       - in: path
         name: accountName
@@ -80,7 +80,7 @@ paths:
       description: Deletes the specified firewall rule from the specified Data Lake
         Store account
       operationId: FirewallRules_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete
       parameters:
       - in: path
         name: accountName
@@ -104,7 +104,7 @@ paths:
       summary: Firewall Rules Get
       description: Gets the specified Data Lake Store firewall rule.
       operationId: FirewallRules_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get
       parameters:
       - in: path
         name: accountName
@@ -130,7 +130,7 @@ paths:
       description: Lists the Data Lake Store firewall rules within the specified Data
         Lake Store account.
       operationId: FirewallRules_ListByAccount
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrules-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get
       parameters:
       - in: path
         name: accountName
@@ -154,7 +154,7 @@ paths:
         update, the trusted identity provider with the specified name will be replaced
         with this new provider
       operationId: TrustedIdProviders_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-put
       parameters:
       - in: path
         name: accountName
@@ -184,7 +184,7 @@ paths:
       summary: Trusted Id Providers Update
       description: Updates the specified trusted identity provider.
       operationId: TrustedIdProviders_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-patch
       parameters:
       - in: path
         name: accountName
@@ -214,7 +214,7 @@ paths:
       description: Deletes the specified trusted identity provider from the specified
         Data Lake Store account
       operationId: TrustedIdProviders_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-delete
       parameters:
       - in: path
         name: accountName
@@ -238,7 +238,7 @@ paths:
       summary: Trusted Id Providers Get
       description: Gets the specified Data Lake Store trusted identity provider.
       operationId: TrustedIdProviders_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-get
       parameters:
       - in: path
         name: accountName
@@ -264,7 +264,7 @@ paths:
       description: Lists the Data Lake Store trusted identity providers within the
         specified Data Lake Store account.
       operationId: TrustedIdProviders_ListByAccount
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviders-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviders-get
       parameters:
       - in: path
         name: accountName
@@ -286,7 +286,7 @@ paths:
       summary: Account Create
       description: Creates the specified Data Lake Store account.
       operationId: Account_Create
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-put
       parameters:
       - in: path
         name: name
@@ -311,7 +311,7 @@ paths:
       summary: Account Update
       description: Updates the specified Data Lake Store account information.
       operationId: Account_Update
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-patch
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-patch
       parameters:
       - in: path
         name: name
@@ -336,7 +336,7 @@ paths:
       summary: Account Delete
       description: Deletes the specified Data Lake Store account.
       operationId: Account_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-delete
       parameters:
       - in: path
         name: name
@@ -356,7 +356,7 @@ paths:
       summary: Account Get
       description: Gets the specified Data Lake Store account.
       operationId: Account_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-get
       parameters:
       - in: path
         name: name
@@ -378,7 +378,7 @@ paths:
       description: Attempts to enable a user managed key vault for encryption of the
         specified Data Lake Store account.
       operationId: Account_EnableKeyVault
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnameenablekeyvault-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnameenablekeyvault-post
       parameters:
       - in: path
         name: accountName
@@ -401,7 +401,7 @@ paths:
       description: Lists the Data Lake Store accounts within a specific resource group.
         The response includes a link to the next page of results, if any.
       operationId: Account_ListByResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccounts-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccounts-get
       parameters:
       - in: query
         name: $count
@@ -439,7 +439,7 @@ paths:
       description: Lists the Data Lake Store accounts within the subscription. The
         response includes a link to the next page of results, if any.
       operationId: Account_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftdatalakestoreaccounts-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-datalakestoreaccounts-get
       parameters:
       - in: query
         name: $count

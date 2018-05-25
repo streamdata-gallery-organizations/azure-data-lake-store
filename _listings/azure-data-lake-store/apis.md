@@ -14,8 +14,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Data Lake Store
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/apis.md
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Firewall Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-put-openapi.md
 - name: Azure Data Lake Store API Firewall Rules Update
   x-api-slug: azure-data-lake-store-api
   description: Updates the specified firewall rule.
@@ -40,7 +40,7 @@ apis:
   tags: Firewall Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-patch-openapi.md
 - name: Azure Data Lake Store API Firewall Rules Delete
   x-api-slug: azure-data-lake-store-api
   description: Deletes the specified firewall rule from the specified Data Lake Store
@@ -51,7 +51,7 @@ apis:
   tags: Firewall Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-delete-openapi.md
 - name: Azure Data Lake Store API Firewall Rules Get
   x-api-slug: azure-data-lake-store-api
   description: Gets the specified Data Lake Store firewall rule.
@@ -61,7 +61,7 @@ apis:
   tags: Firewall Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrulesfirewallrulename-get-openapi.md
 - name: Azure Data Lake Store API Firewall Rules List By Account
   x-api-slug: azure-data-lake-store-api
   description: Lists the Data Lake Store firewall rules within the specified Data
@@ -72,7 +72,7 @@ apis:
   tags: Firewall Rule
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnamefirewallrules-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnamefirewallrules-get-openapi.md
 - name: Azure Data Lake Store API Trusted Id Providers Create Or Update
   x-api-slug: azure-data-lake-store-api
   description: Creates or updates the specified trusted identity provider. During
@@ -84,7 +84,7 @@ apis:
   tags: Trusted Id Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-put-openapi.md
 - name: Azure Data Lake Store API Trusted Id Providers Update
   x-api-slug: azure-data-lake-store-api
   description: Updates the specified trusted identity provider.
@@ -94,7 +94,7 @@ apis:
   tags: Trusted Id Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-patch-openapi.md
 - name: Azure Data Lake Store API Trusted Id Providers Delete
   x-api-slug: azure-data-lake-store-api
   description: Deletes the specified trusted identity provider from the specified
@@ -105,7 +105,7 @@ apis:
   tags: Trusted Id Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-delete-openapi.md
 - name: Azure Data Lake Store API Trusted Id Providers Get
   x-api-slug: azure-data-lake-store-api
   description: Gets the specified Data Lake Store trusted identity provider.
@@ -115,7 +115,7 @@ apis:
   tags: Trusted Id Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviderstrustedidprovidername-get-openapi.md
 - name: Azure Data Lake Store API Trusted Id Providers List By Account
   x-api-slug: azure-data-lake-store-api
   description: Lists the Data Lake Store trusted identity providers within the specified
@@ -126,7 +126,7 @@ apis:
   tags: Trusted Id Provider
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnametrustedidproviders-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnametrustedidproviders-get-openapi.md
 - name: Azure Data Lake Store API Account Create
   x-api-slug: azure-data-lake-store-api
   description: Creates the specified Data Lake Store account.
@@ -136,7 +136,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-put-openapi.md
 - name: Azure Data Lake Store API Account Update
   x-api-slug: azure-data-lake-store-api
   description: Updates the specified Data Lake Store account information.
@@ -146,7 +146,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-patch-openapi.md
 - name: Azure Data Lake Store API Account Delete
   x-api-slug: azure-data-lake-store-api
   description: Deletes the specified Data Lake Store account.
@@ -156,7 +156,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-delete-openapi.md
 - name: Azure Data Lake Store API Account Get
   x-api-slug: azure-data-lake-store-api
   description: Gets the specified Data Lake Store account.
@@ -166,7 +166,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsname-get-openapi.md
 - name: Azure Data Lake Store API Account Enable Key Vault
   x-api-slug: azure-data-lake-store-api
   description: Attempts to enable a user managed key vault for encryption of the specified
@@ -177,7 +177,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccountsaccountnameenablekeyvault-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccountsaccountnameenablekeyvault-post-openapi.md
 - name: Azure Data Lake Store API Account List By Resource Group
   x-api-slug: azure-data-lake-store-api
   description: Lists the Data Lake Store accounts within a specific resource group.
@@ -188,7 +188,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftdatalakestoreaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-datalakestoreaccounts-get-openapi.md
 - name: Azure Data Lake Store API Account List
   x-api-slug: azure-data-lake-store-api
   description: Lists the Data Lake Store accounts within the subscription. The response
@@ -199,7 +199,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidprovidersmicrosoftdatalakestoreaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/subscriptionssubscriptionidprovidersmicrosoft-datalakestoreaccounts-get-openapi.md
 - name: Azure Data Lake Store API File System Concurrent Append
   x-api-slug: azure-data-lake-store-api
   description: 'Appends to the specified file, optionally first creating the file
