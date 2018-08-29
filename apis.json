@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Data Lake Store",
+	"description": "This is a repository of azure data lake store APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-data-lake-store.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-data-lake-store.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Data Lake Store",
+			"x-api-slug": "azure-data-lake-store",
+			"description": "The Data Lake store provides a single repository where you can capture data of any size type and speed simply without forcing changes to your application as the data scales. In the store, data can be shared for collaboration with enterprise-grade security. It is also designed for high-performance processing and analytics from HDFS applications (ie. Azure HDInsight, Data Lake analytics service, Hortonworks, Cloudera, MapR) and tools, including support for low latency workloads. For example, data can be ingested in real-time from sensors and devices for IoT solutions, or from online shopping websites into the store without the restriction of fixed limits on account or file size unlike current offerings in the market.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-data-lake-store-01-petabyte.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/data-lake-store/",
+			"baseURL": ":////",
+			"tags": "Azure Data Lake Store",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Data Lake Store",
+	"include": [
+		{
+			"name": "Azure Data Lake Store",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-data-lake-store/master/_listings/azure-data-lake-store/apis.yaml"
+		}
+	]
+}

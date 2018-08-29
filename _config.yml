@@ -4,7 +4,7 @@ url: azure-data-lake-store.streamdata.gallery
 tag: Azure Data Lake Store
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: azure-data-lake-store
 github_branch: master
 collections:
